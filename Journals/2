@@ -1,0 +1,11 @@
+Date:
+  1/29/2019
+
+Summary:
+  It seems that the lectures are currenly centered around dynamic programming. More specifically, given some MDP we are learning to evaluate some policy on that MDP. We are aslo being taught to find the otimal policy and value functions. The issue here seems to be that there prcesses are slow and do not work well on problems with a large amount of actions or states. 
+
+Progress:
+
+  
+Things Learned:
+  There are two problems being solved by these ideas. The control problem and the prediction problem. The Prediction problem is all about evaluating policy functions while the control is about finding optimal policies and values fucntions. For prediction the Bellman Expectation equation is used. It is an iterative equation which at each step find the expected reward from this state given the policy and the next state. The next state however is not correctly computed. After enough iterations however it does converge to the correct values. For the control problems, there are two options so far. One of them uses the Bellman Expetation Equation in an iterative manor combining it with a ggreedy policy improvement to zig zag between finding a better value function, and then finding the best policy for that function. Eventually the value function convereges leading to the policy to also be optimal. The other option is to use the Bellman Optimality Equation. This is more similar to what I see as a traditional DP. Basically it works backwards. For example in a shortest path problem it initially has everything set to zero and then at each step looks around and is like "what is my best move here". Then it updates its table.
