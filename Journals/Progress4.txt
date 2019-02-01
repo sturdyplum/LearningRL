@@ -1,0 +1,12 @@
+Date:
+  2/1/2019
+
+Summary:
+   Today I put in a bit of time to continue my learning of model-free methods. This time focusing on controll and not evaluation. I made some progress on chapter 5 but still need to work some parts out fr the later parts of the chapter. 
+   
+Progress:
+  Watched the 5th video and read most of chapter 5, still need to reread some parts on the off-policy control with importanced sampling, athough I suspect that importance sampling is very similar to the eligibility traces discussed in video 5. I also finished the on-polict monte carlo control algorithm but have chosen to not do the iff policy one until after I understand the math, something I will probably atempt to do tomorrow. 
+  
+Things Learned:
+  The difference between on policy and off policy learning. How to do an on-policy MC control. I learned a bit about doing this better with TD instead of using MC. And to do it online with eligbility traces. I also learned about off-policy things including the purpose of off policy and that Q-Learning is just a special case of the off-policy learning where your target policy is the greedy and the policy you use is the epsilon greedy so while you use the epsilon greedy to move form state to state, you use the target function plugged into the bellman equation to update Q function.
+  

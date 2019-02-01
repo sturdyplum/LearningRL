@@ -1,0 +1,11 @@
+Date:
+  1/30/2019
+
+Summary:
+  Today I began studying model free prediction methods. Specifically it seems to be centered around the ideas of Monte Carlo and varients of it (such as td). As suggested by the course I began with reading the 5th chapter of the book on Monte Carlo Methods. However I found myself struggling with the concept a bit and with the math a lot. To help make the reading a bit easier I thought that instead of reading the chapter right away I would watch the 4th and 5th video of the course, do the extersizes, and then go back to the book later. 
+
+Progress:
+  I watched the 4th video in the course and then did the MC prediction to estimate stae values of blackjack extersize. 
+  
+Things Learned:
+  I learned about the concept of model-free enviorments. Generally these are more realistic since it is umlikely that we would have a acurate model in the real world. Along with this I learned about how to use MC and TD to estimate the state-action values (or Q values) of a given MDP with a given policy. 
